@@ -61,6 +61,7 @@
     <Compile Include="Interface\IRequestSerializer.cs" />
     <Compile Include="Interface\IResponseDeserializer.cs" />
     <Compile Include="Interface\IResponseModel.cs" />
+    <Compile Include="MessageRequestSerizalizerFactory.cs" />
     <Compile Include="Model\Request\BinaryRequestModel.cs" />
     <Compile Include="Model\Request\RequestModel.cs" />
     <Compile Include="Model\Request\TextRequestModel.cs" />

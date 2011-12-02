@@ -3,9 +3,9 @@ using Nexmo_CSharp_lib.Model.Request;
 
 namespace Nexmo_CSharp_lib
 {
-    public class RequestModelBuilder
+    public static class RequestModelBuilder
     {
-        public RequestModel<T> Create<T>(string username, string password, string from, string to, T messageRequestModel)
+        public static RequestModel<T> Create<T>(string username, string password, string from, string to, T messageRequestModel)
             where T : IMessageRequestModel
         {
             var type = messageRequestModel.GetTypeName();
@@ -20,7 +20,7 @@ namespace Nexmo_CSharp_lib
                        };
         }
 
-        public RequestModel<T> Create<T>(RequestModel<T> requestModel, T messageRequestModel)
+        public static RequestModel<T> Create<T>(RequestModel<T> requestModel, T messageRequestModel)
             where T : IMessageRequestModel
         {
             var type = messageRequestModel.GetTypeName();

@@ -26,9 +26,8 @@ namespace Nexmo_CSharp_lib
             Log.Info("- JsonExample -");
 
             var textModel = new TextRequestModel {Text = "HelloWorld!"};
-            var builder = new RequestModelBuilder();
-         
-            var requestModel = builder.Create("{USERNAME}", "{PASSWORD}", "{FROM}", "{TO}", textModel);
+
+            var requestModel = RequestModelBuilder.Create("{USERNAME}", "{PASSWORD}", "{FROM}", "{TO}", textModel);
          
             var nexmo = new Nexmo();
             

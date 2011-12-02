@@ -75,6 +75,7 @@
     <Compile Include="RequestModelBuilder.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ResponseModelFactory.cs" />
     <Compile Include="ResponseObjectType.cs" />
     <Compile Include="Serializer\BinaryRequestSerializer.cs" />
     <Compile Include="Serializer\JsonResponseDeserializer.cs" />

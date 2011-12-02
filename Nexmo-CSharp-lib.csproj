@@ -87,6 +87,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Serializer\TextRequestSerializer.cs" />
+    <Compile Include="Serializer\XmlResponseSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

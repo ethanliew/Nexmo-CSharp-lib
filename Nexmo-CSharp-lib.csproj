@@ -70,6 +70,7 @@
     <Compile Include="Model\Response\XmlMessagesModel.cs" />
     <Compile Include="Model\Response\XmlResponseModel.cs" />
     <Compile Include="NexmoBase.cs" />
+    <Compile Include="NexmoConventer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RequestModelBuilder.cs">

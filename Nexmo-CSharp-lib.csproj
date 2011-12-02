@@ -55,6 +55,12 @@
     <Compile Include="Interface\IMessageRequestModel.cs" />
     <Compile Include="Interface\IRequestModel.cs" />
     <Compile Include="Interface\IResponseModel.cs" />
+    <Compile Include="Model\Request\BinaryRequestModel.cs" />
+    <Compile Include="Model\Request\RequestModel.cs" />
+    <Compile Include="Model\Request\TextRequestModel.cs" />
+    <Compile Include="Model\Response\JsonResponseModel.cs" />
+    <Compile Include="Model\Response\MessageModel.cs" />
+    <Compile Include="Model\Response\XmlResponseModel.cs" />
     <Compile Include="NexmoBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -6,10 +6,4 @@ namespace Nexmo_CSharp_lib.Model.Response
     {       
         public XmlMessagesModel Messages;       
     }
-
-    public class XmlMessagesModel
-    {      
-        public string MessageCount;
-        public MessageResponseModel[] MessageModels;
-    }
 }

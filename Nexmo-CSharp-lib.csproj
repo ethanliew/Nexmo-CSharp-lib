@@ -67,6 +67,7 @@
     <Compile Include="Model\Request\TextRequestModel.cs" />
     <Compile Include="Model\Response\JsonResponseModel.cs" />
     <Compile Include="Model\Response\MessageResponseModel.cs" />
+    <Compile Include="Model\Response\XmlMessagesModel.cs" />
     <Compile Include="Model\Response\XmlResponseModel.cs" />
     <Compile Include="NexmoBase.cs" />
     <Compile Include="Program.cs" />

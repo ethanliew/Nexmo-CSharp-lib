@@ -52,6 +52,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IMessageRequestModel.cs" />
+    <Compile Include="Interface\IRequestModel.cs" />
+    <Compile Include="Interface\IResponseModel.cs" />
     <Compile Include="NexmoBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

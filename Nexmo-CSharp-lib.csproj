@@ -79,6 +79,9 @@
     <Compile Include="ResponseObjectType.cs" />
     <Compile Include="Serializer\BinaryRequestSerializer.cs" />
     <Compile Include="Serializer\JsonResponseDeserializer.cs" />
+    <Compile Include="Serializer\RequestSerializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Serializer\TextRequestSerializer.cs" />
   </ItemGroup>
   <ItemGroup>

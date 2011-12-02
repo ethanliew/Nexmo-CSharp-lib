@@ -1,25 +1,44 @@
+# About
+=======================
 
-A CSharp Library for nexmo (http://nexmo.com/) SMS API
+A CSharp Library for [nexmo](http://nexmo.com/) SMS API
 
- Example
------------
+# Installation
+=======================
 
-1) create a text/binary model
+## Via NuGet
+
+Install log4net:
+	Install-Packagelog4net
+Install Common.Logging:
+	Install-Package Common.Logging
+Install Common.Logging.Log4Net:
+	Install-Package Common.Logging.Log4Net
+Install Newtonsoft.Json:
+	Install-Package Newtonsoft.Json
+
+# Example
+=======================
+
+##1) create a text/binary model
 	var textModel = new TextRequestModel {Text = "HelloWorld!"};
 
-2) make a requestModel 
+##2) make a requestModel 
 	var builder = new RequestModelBuilder();
 	var requestModel = builder.Create("{USERNAME}", "{PASSWORD}", "{FROM}", "{TO}", textModel);
 
-3)  Sending SMS and Recieving response
+##3)  Sending SMS and Recieving response
 	var nexmo = new Nexmo();
 	var responseModel = nexmo.Send(requestModel, ResponseObjectType.Json);
 
-Authors
-----------
-	siutin(twitter.com/osiutino)	
-	
-----------	
+# Authors
+=======================
+
+	siutin([twitter.com/osiutino](http://twitter.com/osiutino))	
+
+#License
+=======================
+
 The MIT License (MIT)
 Copyright (c) 2011 siutin
 

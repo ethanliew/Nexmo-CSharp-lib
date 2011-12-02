@@ -8,7 +8,7 @@ A CSharp Library for [nexmo](http://nexmo.com/) SMS API
 
 Install log4net:
 
-	Install-Packagelog4net
+	Install-Package log4net
 Install Common.Logging:
 
 	Install-Package Common.Logging
@@ -26,10 +26,12 @@ Install Newtonsoft.Json:
 
 ###2) make a requestModel 
 	var builder = new RequestModelBuilder();
+	
 	var requestModel = builder.Create("{USERNAME}", "{PASSWORD}", "{FROM}", "{TO}", textModel);
 
 ###3)  Sending SMS and Recieving response
 	var nexmo = new Nexmo();
+	
 	var responseModel = nexmo.Send(requestModel, ResponseObjectType.Json);
 
 # Authors

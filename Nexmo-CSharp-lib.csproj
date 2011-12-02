@@ -56,7 +56,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IMessageRequestModel.cs" />
+    <Compile Include="Interface\IMessageSerizalizer.cs" />
     <Compile Include="Interface\IRequestModel.cs" />
+    <Compile Include="Interface\IRequestSerializer.cs" />
+    <Compile Include="Interface\IResponseDeserializer.cs" />
     <Compile Include="Interface\IResponseModel.cs" />
     <Compile Include="Model\Request\BinaryRequestModel.cs" />
     <Compile Include="Model\Request\RequestModel.cs" />

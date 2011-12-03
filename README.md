@@ -25,9 +25,8 @@ Install Newtonsoft.Json:
 	var textModel = new TextRequestModel {Text = "HelloWorld!"};
 
 ###2) make a requestModel 
-	var builder = new RequestModelBuilder();
 	
-	var requestModel = builder.Create("{USERNAME}", "{PASSWORD}", "{FROM}", "{TO}", textModel);
+	var requestModel = RequestModelBuilder.Create("{USERNAME}", "{PASSWORD}", "{FROM}", "{TO}", textModel);
 
 ###3)  Sending SMS and Recieving response
 	var nexmo = new Nexmo();
